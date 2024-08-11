@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="How do you make Dungeon Synth music? We have a short quick-start guide and a longer in-depth guide to help you get started."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Slabo+13px&family=Poppins&family=Fondamento&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <title>Dungeon Synth Music Making Guide</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" media="all" />
+  </head>
+  <body>
+    <marquee>
+      Visit us on Reddit!
+      <a
+        href="https://www.reddit.com/r/DungeonSynth/"
+        rel="noopener noreferrer"
+        target="_blank"
+        >/r/DungeonSynth</a
+      >
+    </marquee>
+
+    <header class="nav-header">
+      <button
+        class="nav-toggle"
+        aria-controls="navigation"
+        aria-expanded="false"
+        aria-label="toggle the navigation menu"
+        onclick="toggleNavigation()"
+      >
+        <span></span>
+      </button>
+      <nav id="navigation" class="main-navigation">
+        <ul>
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/history">History</a>
+          </li>
+          <li>
+            <a href="/proto-ds">Proto DS</a>
+          </li>
+          <li>
+            <a href="/subgenres">Subgenres</a>
+          </li>
+          <li>
+            <p class="current-page">Music Making Guide</p>
+          </li>
+          <li>
+            <a href="/music-gear">Music Gear</a>
+          </li>
+          <li>
+            <a href="/album-art-101">Album Art 101</a>
+          </li>
+          <li>
+            <a href="/community">Community</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main-container">
+      <h1>Dungeon Synth Composition 101</h1>
+      <section>
+        <p>
+          <i
+            >Note: this is from the perspective of someone using a DAW (digital
+            audio workstation) on their computer. I (<a
+              href="https://www.reddit.com/u/AvelineBaudelaire"
+              target="_blank"
+              rel="noopener noreferrer"
+              >AvelineBaudelaire</a
+            >
+            aka
+            <a
+              href="https://cavebirdrecords.bandcamp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Wooden Vessels</a
+            >) use Reaper so it will be from that point of view, but most DAWs
+            should be able to do all of these things.</i
+          >
+        </p>
+        <p>
+          A list of common DAWs & VSTs (virtual studio technology aka software
+          instruments & effects) can be found on the
+          <a href="/music-gear" target="_blank" rel="noopener noreferrer"
+            >Gear page</a
+          >.
+        </p>
+      </section>
+
+      <section>
+        <h2>Here’s the quickest of quick start guides:</h2>
+        <ol class="numbered-list">
+          <li>download a couple VSTs</li>
+          <li>open up your DAW</li>
+          <li>
+            load your VSTs into the DAW (might be tricky if you’re new to DAWs -
+            <a
+              href="https://forum.cockos.com/showthread.php?t=216170"
+              target="_blank"
+              rel="noopener noreferrer"
+              >here’s a guide for Reaper</a
+            >)
+          </li>
+          <li>
+            create a new software instrument track (in Reaper Right-Click in the
+            left panel & select ‘Insert virtual instrument on new track’)
+          </li>
+          <li>assign the new track a VST</li>
+          <li>
+            use your mouse to make a Piano Roll region in the ‘playback zone’ of
+            the DAW for this track (in Reaper hold Ctrl+Left-Click and drag)
+          </li>
+          <li>double click on that region to open the Piano Roll editor</li>
+          <li>
+            put some notes in and hit Play to hear what it sounds like
+            <ul>
+              <li>
+                double clicking or click & dragging are pretty common ways to
+                ‘paint in’ a note
+              </li>
+              <li>
+                clicking & holding near the right edge of the note allows you to
+                change the length/duration of the note in most editors
+              </li>
+              <li>
+                clicking & holding in the middle of the note allows you to
+                change which beat it plays on
+              </li>
+            </ul>
+          </li>
+          <li>
+            repeat all these steps for to make new tracks, VST sounds, and songs
+            sections (with Piano Roll regions) until you’re happy with your song
+          </li>
+          <li>
+            Export or Render the song as an mp3 or wav file & toss it on
+            Bandcamp or Youtube (or wait until you have an EP or album worth of
+            songs)
+          </li>
+          <li>congrats on your Dungeon Synth first song 🎉</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>A more in-depth guide following how I make music:</h2>
+        <p>
+          First I do some planning and outlining. I ask myself questions like
+          these:
+        </p>
+        <ul class="section-list">
+          <li>what aesthetic, vibe, or sub-genre am I aiming for?</li>
+          <li>
+            will there be a story tying everything together or will each song be
+            its own story?
+          </li>
+          <li>what is the setting of the story (or stories)?</li>
+          <li>what instruments and sounds make sense for that setting?</li>
+          <li>
+            do I want to keep things pretty mild or do I want to get
+            <em>wild</em>?
+          </li>
+          <li>how long should the album be?</li>
+          <li>given the length, how many songs should I aim for?</li>
+        </ul>
+        <p>
+          Once I have fairly solid answers to these questions I start swapping
+          between making short musical ideas, working on the story (or stories),
+          and start on the album art (or seek someone out to handle that part).
+          I’m going to keep this much more focused on the music making piece of
+          this. If you’re curious about how I approach writing the stories or
+          making the album art feel free to send me a message. That said, I
+          cannot stress enough how important the story/mood/atmosphere part is
+          to the creative process. It is <em>vital</em> and truly drives
+          creative inspiration. I highly recommend creating an environment that
+          works for you - candles, incense, inspiring posters, moodboards,
+          reading a book or listening to music beforehand, dimming the lights or
+          turning them off completely, putting some swords up on the wall,
+          changing into a ‘ritual’ outfit, spending a week running with the
+          foxes or wolves in the woods, communing with faeries & gnomes near the
+          magic creek, staring longingly into a goblin’s eyes for 30 minutes,
+          whatever works best for you. It helps so much.
+        </p>
+        <p>
+          I have two basic methods that I use a lot when making music: hooking
+          up a MIDI keyboard and playing around until I find something I like,
+          and playing around in the Piano Roll until I find something that
+          sounds decent. Sometimes the underlying chords come first. Sometimes
+          the melody comes first. Sometimes I Most of the ideas made at this
+          point don’t make it into the song or the album. Not every idea is a
+          keeper, but I’m a firm believer that making these ‘bad’ or ‘okay-ish’
+          ideas helps get the brain into Creative Mode™. Sometimes it takes a
+          loooong time to get there - weeks even. And other times it happens
+          almost instantly. Pro tip: playing only white keys will almost always
+          sound good and ‘in key’
+        </p>
+        <p>
+          Some ‘chords’ (or perhaps more accurately ‘intervals’) I like to play
+          around with are fourths, fifths, and octaves. These are generally
+          pretty strong sounding, and have been used in all sorts of music for
+          centuries. If you’re totally new to music making, scales, and whatnot
+          here’s how to find these notes. Start on any white key. Play that
+          note. Counting white keys to the right of that note: 1 is the note
+          you’re playing, 2 is the next white key, then 3, then 4. Play the 4th
+          white key. That’s a fourth. A fifth is the same idea - count to 5 on
+          the white keys to the right. Make sure to count the key you’re playing
+          as 1. An octave (as in 8) is the exact same note that you’re playing,
+          but in the next ‘register’. You can find it by counting to 8, making
+          sure to count the note you’re playing as 1.
+        </p>
+        <div class="flex-container">
+          <figure>
+            <img
+              class="music-img"
+              src="images/fourth.png"
+              alt="A piano with one note being played on C and another note being played on F"
+            />
+            <figcaption>a fourth</figcaption>
+          </figure>
+          <figure>
+            <img
+              class="music-img"
+              src="images/fifth.png"
+              alt="A piano with one note being played on C and another note being played on G"
+            />
+            <figcaption>a fifth</figcaption>
+          </figure>
+          <figure>
+            <img
+              class="music-img"
+              src="images/octave.png"
+              alt="A piano with one note being played on C and another note being played on the next C"
+            />
+            <figcaption>an octave</figcaption>
+          </figure>
+        </div>
+        <p>
+          I feel like melodies are one of my weak points, and I’ve been trying
+          to work on crafting them. One basic formula I’ve found to be useful is
+          to pick a low note and a high note no more than about 12 notes apart.
+          This is the range the melody will stay inside of. Then try to make the
+          melody have a rise and fall. The high note should only be hit one
+          time. Same for the low note. Remember, this is just a thing I’ve been
+          trying out. It’s not the best or only way to build a melody.
+        </p>
+        <p>
+          After there’s a good foundation for either a melody or a chord
+          progression (which is a series of chords) I loop it and make some
+          options for the other part. Usually this is all done with just one
+          track and one VST. More sounds can be added later, and with a DAW it’s
+          quick & easy to see what the idea I’m making sounds like with another
+          VST or instrument. I try to make at least 3 or 4 different ‘options’
+          to go with the part that’s looping. Again, this doesn’t have to be
+          groundbreaking music. It’s mostly to get some rough ideas out there.
+          Many of them probably won’t even be used in the final product.
+        </p>
+        <div class="flex-container">
+          <figure>
+            <img
+              class="music-img"
+              src="images/melody.png"
+              alt="A melody written in a Piano Roll starting on B, rising to F, falling to A, and finishing back on B"
+            />
+            <figcaption>a simple melody</figcaption>
+          </figure>
+        </div>
+        <p>
+          When there’s a few ideas I’m satisfied with I see if any fit together.
+          Maybe they’ll each be in their own songs, but maybe some of them sound
+          great together. This is the part where I start planning out the
+          structures for the first few songs. Maybe song 1 will have Part A,
+          then Part B, then Part A again (ABAB). Maybe song 2 will have a
+          verse/chorus type of thing like ABACB. Maybe song 3 will just be Part
+          A, but stuff will slowly get layered in on top of it. Some songs will
+          have extended intros or outros. The combinations are unlimited:
+          ABCABC, ABBACC, ABACDDC, you get the idea. If you’re new to making
+          music aim for a simple one like ABAB, ABAC, or ABCBC. Complicating
+          things too much can be discouraging and ruin an otherwise good song.
+        </p>
+        <p>
+          Also keep in mind that none of these decisions have to be final. My
+          songs go through so many iterations. You never know when you’ll
+          stumble across the perfect thing to add in. This is the stage where I
+          start experimenting with adding more tracks/VSTs/instruments into the
+          mix.
+        </p>
+        <p>
+          I continue this workflow until I have a solid foundation to about half
+          the songs for the album. Then I start fine-tuning things a bit more.
+          I’ll make the transitions smooth and add some melodic variations to
+          keep the music from becoming stale. By ‘smooth transitions’ I’m
+          referring to the place where Part A becomes Part B, etc. Oftentimes
+          the notes that lead into the next section will have to be altered a
+          bit to keep the transition from being too jarring. Sometimes I add
+          some quicker notes that head towards the starting notes of the next
+          section. Sometimes I have lower chords fade in for a few beats before
+          the next section starts. Stuff like that.
+        </p>
+        <p>
+          Finally, I add the bells & whistles to the songs. Once most of the
+          songs are feeling good I add all the extra stuff in: underlying
+          drones, background flourishes, little sound effects at impactful
+          parts, field recordings, other background textures. Dungeon Synth is
+          all about atmosphere, and these are the things that can turn a good
+          song into a great song. In fact, sometimes I start with the background
+          textures and drones. Don’t go overboard though. There’s a delicate
+          balance point where things go from atmospheric & meaningful to
+          overused & annoying. Less is more.
+        </p>
+        <p>
+          And there you have it! The album is finished. Again, this is just the
+          general approach that I take. I don’t follow this exact pattern for
+          every song I make. Experiment and see what works best for you.
+          Adventure awaits!
+        </p>
+      </section>
+
+      <section>
+        <h2>Some general creative tips:</h2>
+        <ul>
+          <li>
+            limitations can be excellent - using only 5 instruments/tracks,
+            capping the number of effects at 3, only using presets, only using
+            sounds you crafted yourself, etc. can help build up your creative &
+            innovation skills.
+          </li>
+          <li>
+            deadlines can aid in creativity - not for everyone, but I find that
+            having a ‘due date’ for my album makes me more likely to work on it
+            rather than starting a new album, and another new album, etc.
+          </li>
+          <li>
+            focus on ‘good enough’ rather than perfection - there’s value in
+            having a high quality song, but there’s also value in knowing when a
+            song is solid enough to be complete...if that makes sense.
+          </li>
+          <li>
+            quality over quantity - may seem like the opposite of the previous
+            point, but having 7 quality songs is so much better (and more
+            satisfying!) than having 30 low effort songs.
+          </li>
+          <li>
+            focus on the journey rather than the destination - most of us would
+            love to have some level of fame in the scene, but being caught up
+            with checking views/sales/upvotes/purchases/listens/etc will only
+            harm you mentally and make you resent what you do.
+          </li>
+          <li>
+            don’t compare yourself to other artists - to the point above,
+            everyone is at a different place in their life and with their music.
+            Set some realistic personal goals and make progress towards them.
+            Don’t base your success on someone else’s life.
+          </li>
+          <li>
+            HAVE FUN - this is absolutely the most important thing. If you
+            aren’t having fun you should seriously consider taking a break and
+            coming back to things when you can find joy and wonder in them
+            again. This could be days or it could be months. Creating should be
+            fun <3
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
