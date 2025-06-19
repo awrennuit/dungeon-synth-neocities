@@ -1,0 +1,1469 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A database of dungeon synth artists from the 90s through the present with links to listen to each artist's music."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Slabo+13px&family=Poppins&family=Fondamento&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <title>Dungeon Synth Database</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" media="all" />
+  </head>
+  <body>
+    <marquee>
+      Visit us on Reddit!
+      <a
+        href="https://www.reddit.com/r/DungeonSynth/"
+        rel="noopener noreferrer"
+        target="_blank"
+        >/r/DungeonSynth</a
+      >
+    </marquee>
+
+    <header class="nav-header">
+      <button
+        class="nav-toggle"
+        aria-controls="navigation"
+        aria-expanded="false"
+        aria-label="toggle the navigation menu"
+        onclick="toggleNavigation()"
+      >
+        <span></span>
+      </button>
+      <nav id="navigation" class="main-navigation">
+        <ul>
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/history">History</a>
+          </li>
+          <li>
+            <a href="/proto-ds">Proto DS</a>
+          </li>
+          <li>
+            <a href="/subgenres">Subgenres</a>
+          </li>
+          <li>
+            <a href="/music-making-guide">Music Making Guide</a>
+          </li>
+          <li>
+            <a href="/music-gear">Music Gear</a>
+          </li>
+          <li>
+            <a href="/album-art-101">Album Art 101</a>
+          </li>
+          <li>
+            <p class="current-page">Database</p>
+          </li>
+          <li>
+            <a href="/community">Community</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main-container">
+      <article class="database">
+        <h1>Artist Database</h1>
+        <p class="construction">UNDER CONSTRUCTION</p>
+
+        <section>
+          <p>
+            This list is incomplete. Use it as a starting point. The number of
+            new artists shot up exponentially during the 2010s revival. From
+            that point onward the focus is on bigger-name artists and any
+            influential projects.
+          </p>
+
+          <p>
+            *** Artists are categorized based on the year of their first dungeon
+            synth release ***
+          </p>
+        </section>
+
+        <nav>
+          <p>Jump to a section</p>
+          <ul>
+            <li>
+              <a href="#90s">1990s</a>
+            </li>
+            <li>
+              <a href="#00s">2000s</a>
+            </li>
+            <li>
+              <a href="#10s">2010s</a>
+            </li>
+            <li>
+              <a href="#20s">2020s</a>
+            </li>
+          </ul>
+        </nav>
+
+        <aside class="filter-wrapper">
+          <p>Filters</p>
+          <div class="filters">
+            <button class="active" type="all" onclick="showArtists()">
+              All
+            </button>
+            <button type="berlin" onclick="showArtists('berlin')">
+              Berlin school
+            </button>
+            <button type="black metal" onclick="showArtists('black metal')">
+              Black metal
+            </button>
+            <button type="classic" onclick="showArtists('classic')">
+              Classic sound
+            </button>
+            <button type="comfy" onclick="showArtists('comfy')">
+              Comfy synth
+            </button>
+            <button type="dark ambient" onclick="showArtists('dark ambient')">
+              Dark ambient
+            </button>
+            <button type="darkwave" onclick="showArtists('darkwave')">
+              Darkwave
+            </button>
+            <button type="epic" onclick="showArtists('epic')">Epic</button>
+            <button type="forest" onclick="showArtists('forest')">
+              Forest synth
+            </button>
+            <button type="guitar" onclick="showArtists('guitar')">
+              Has guitar
+            </button>
+            <button type="medieval" onclick="showArtists('medieval')">
+              Medieval
+            </button>
+            <button type="mesopotamian" onclick="showArtists('mesopotamian')">
+              Mesopotamian
+            </button>
+            <button type="neoclassical" onclick="showArtists('neoclassical')">
+              Neoclassical
+            </button>
+            <button type="new age" onclick="showArtists('new age')">
+              New age
+            </button>
+            <button type="space" onclick="showArtists('space')">
+              Space / cosmic
+            </button>
+            <button type="unknown" onclick="showArtists('unknown')">
+              Unknown
+            </button>
+            <button type="vocal" onclick="showArtists('vocal')">Vocals</button>
+            <button type="winter" onclick="showArtists('winter')">
+              Winter synth
+            </button>
+          </div>
+        </aside>
+
+        <section>
+          <h2 id="90s">1990s</h2>
+          <ul>
+            <li class="artist-item" type="['neoclassical']">
+              <a
+                href="https://www.youtube.com/watch?v=t2vZG8FpnOw"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Aardia (90s-10s, Sweden)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=F7yzjyd0260"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Abaddon (90s, Brazil)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic']">
+              <a
+                href="https://www.youtube.com/watch?v=eMLHPJPRzZw"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Aeternum Maleficium (90s, Brazil)</a
+              >
+            </li>
+            <li class="artist-item" type="['guitar', 'neoclassical', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=pV-1H-kliyo"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Akhenaton (90s, France)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic']">
+              <a
+                href="https://www.youtube.com/watch?v=B4YvJ73Onjo"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Alchem (90s, Poland)</a
+              >
+            </li>
+            <li class="artist-item" type="['darkwave', 'guitar', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=Ou93P55Nfbs"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Alpheratz (90s, Mexico)</a
+              >
+            </li>
+            <li class="artist-item" type="['black metal', 'guitar', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=aq1ReaYu7Do"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Ammit (90s-10s, Chile)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic']">
+              <a
+                href="https://www.youtube.com/watch?v=lmFNQW1Fh2U"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Annwn (90s, Portugal)</a
+              >
+            </li>
+            <li class="artist-item" type="['guitar', 'space', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=-oTduXC-dz4"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Apeiron (90s, Austria)</a
+              >
+            </li>
+            <li class="artist-item" type="['neoclassical']">
+              <a
+                href="https://www.youtube.com/watch?v=GYxayg12reU"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Arcane Liturgia (90s, 10s-present, Italy)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic']">
+              <a
+                href="https://www.youtube.com/watch?v=kE-zoPdEw74"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Arden (90s, France, see also: Maelifell)</a
+              >
+            </li>
+            <li class="artist-item" type="['neoclassical', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=m_xkmVi6r4w"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Ars Poetica (90s, Poland)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=KaEMhlGaXf4"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Arthame (90s, Finland)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic']">
+              <a
+                href="https://www.youtube.com/watch?v=9fq8uxePzjc"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Ashmadai (90s, Portugal)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'mesopotamian']">
+              <a
+                href="https://www.youtube.com/watch?v=qXL1W7coH9o"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Ashmedi (90s, Israel, see also: Melechesh)</a
+              >
+            </li>
+            <li
+              class="artist-item"
+              type="['black metal', 'classic', 'guitar', 'vocal']"
+            >
+              <a
+                href="https://rateyourmusic.com/artist/asmorod"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Asmorod (90s-00s, France)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'new age']">
+              <a
+                href="https://www.youtube.com/watch?v=vsdUJLZu-7I"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Atropos (90s, Italy)</a
+              >
+            </li>
+            <li class="artist-item" type="['neoclassical']">
+              <a
+                href="https://www.youtube.com/watch?v=W-qqNjB2Ow0&list=OLAK5uy_kxe-3cvT8nmxa63omzJA_oRKBfq9tbzAs"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Avalist (90s, 10s, Germany)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic']">
+              <a
+                href="https://www.youtube.com/watch?v=VpjvrmKDT3Q"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Avox (90s, Italy)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'darkwave', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=UprdT8Vql5c"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Bachus (90s-00s, Belarus)</a
+              >
+            </li>
+            <li class="artist-item" type="['dark ambient', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=9jHi0KF9wU0"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Balam (90s, France)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic']">
+              <a
+                href="https://www.youtube.com/watch?v=AM8ztDDz2Ek"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Barzabel (90s, Germany)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=Meugsglihms"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Black Wailing (90s, Greece)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=Thi_CjK6HsQ"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Blackcount Baalberith (90s, Czechia)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'neoclassical']">
+              <a
+                href="https://www.youtube.com/watch?v=6-Q2ef7qO48"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Blutaxt (90s, Germany)</a
+              >
+            </li>
+            <li class="artist-item" type="['neoclassical']">
+              <a
+                href="https://www.youtube.com/watch?v=3zhonFtBBfQ"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Caduceus (90s, Lithuania)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'winter']">
+              <a
+                href="https://www.youtube.com/watch?v=wnxqKS8bn5g"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Cain (90s, Russia)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic']">
+              <a
+                href="https://www.youtube.com/watch?v=h-EpQysxbzo"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Casket of Dreams (90s, 20s, Canada)</a
+              >
+            </li>
+            <li class="artist-item" type="['black metal', 'classic', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=byG5lSZz0kc"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Cedamus (90s, Poland)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic']">
+              <a
+                href="https://www.youtube.com/watch?v=Z4GZ4zhgA3o"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Cemetery Fading (90s, Finland)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=MBsU6ErOjDk"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Cernunnos Woods (90s-present, United States)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic']">
+              <a
+                href="https://www.youtube.com/watch?v=rV5QPzSDbOA"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Cintecele Diavolui (90s, Norway, see also: Fata Morgana,
+                Mortiis, Vond)</a
+              >
+            </li>
+            <li class="artist-item" type="['neoclassical']">
+              <a
+                href="https://www.youtube.com/watch?v=JH9rC885mHc"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Conjured to Baphometh (90s, Sweden)</a
+              >
+            </li>
+            <li class="artist-item" type="['dark ambient', 'neoclassical']">
+              <a
+                href="https://www.youtube.com/watch?v=PpKSQLAggPM"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Conscientia Peccati (90s-20s, Germany)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic']">
+              <a
+                href="https://www.youtube.com/watch?v=X376t0B38hM"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Corvus Neblus (90s-00s, Greece)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic']">
+              <a
+                href="https://www.youtube.com/watch?v=gewBohrLlS8"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Daoine Sidhe (90s, France)</a
+              >
+            </li>
+            <li class="artist-item" type="['dark ambient']">
+              <a
+                href="https://www.youtube.com/watch?v=clzveqi38sI"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Darkness Enshroud (90s-10s, United States)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'neoclassical']">
+              <a
+                href="https://www.youtube.com/watch?v=UzTqkmN79dU"
+                target="_blank"
+                rel="noopener noreferrer"
+                >December’s Fire (90s, Poland)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic']">
+              <a
+                href="https://www.youtube.com/watch?v=OxgVmpAk538"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Depressive Silence (90s, Germany, see also: Gothmog,
+                Solanum)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'neoclassical']">
+              <a
+                href="https://www.youtube.com/watch?v=6bF7tpoL6Ek"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Dianom (90s, Finland)</a
+              >
+            </li>
+            <li
+              class="artist-item"
+              type="['darkwave', 'neoclassical', 'vocal']"
+            >
+              <a
+                href="https://www.youtube.com/watch?v=9h--euzi3HM"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Die Verbannten Kinder Evas (90s-00s, Austria, see also:
+                Summoning)</a
+              >
+            </li>
+            <li class="artist-item" type="['black metal', 'guitar', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=H8st3breTC4"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Dies Irae (90s, Norway)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic']">
+              <a
+                href="https://www.youtube.com/watch?v=G9ixz0gGEHM"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Dolch (90s, 20s, Germany)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic']">
+              <a
+                href="https://www.youtube.com/watch?v=mDwSNGMpWj0&list=OLAK5uy_kbE9UjzsUNkO8supOQE58VhL8vHOOSxkg"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Dragonwynd (90s, United States, see also: This Soil Bleeds
+                Black)</a
+              >
+            </li>
+            <li class="artist-item" type="['neoclassical']">
+              <a
+                href="https://www.youtube.com/watch?v=34kCvjg85gg"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Drunemeton (90s, France)</a
+              >
+            </li>
+            <li class="artist-item" type="['neoclassical', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=kB8k0F10mmg"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Drusus (90s, Romania)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=kTT5WFOogtQ"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Elffor (90s-present, Spain)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'neoclassical']">
+              <a
+                href="https://www.youtube.com/watch?v=nFIz_eh0n1Y"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Emglev (90s, France)</a
+              >
+            </li>
+            <li class="artist-item" type="['guitar', 'medieval', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=gJk48F96Kz4"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Empire of the Moon (90s, 10s-present, Greece)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=icUdCotL668"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Endoki Forest (90s, United States)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'dark ambient']">
+              <a
+                href="https://www.youtube.com/watch?v=syv-r8bR2Xs"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Endvra (90s, United Kingdom)</a
+              >
+            </li>
+            <li
+              class="artist-item"
+              type="['black metal', 'classic', 'guitar', 'vocal']"
+            >
+              <a
+                href="https://www.youtube.com/watch?v=LqsLhjh900k"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Enid (90s-10s, Germany)</a
+              >
+            </li>
+            <li class="artist-item" type="['darkwave', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=W2nC2Kj_Z5E"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Ensis et Carnis (90s, Germany)</a
+              >
+            </li>
+            <li class="artist-item" type="['dark ambient', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=QO1t5Yoqxrc"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Equitant (90s-00s, United States, see also: Absu)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=tbdwar5gy0g"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Erevos (90s, Greece)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=2U65KIOK6RY"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Essoupi (90s, Denmark, see also: Hugin)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic']">
+              <a
+                href="https://www.youtube.com/watch?v=7moXQLTcfvE"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Eternal Fear (90s, Poland)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'vocal']">
+              <a
+                href="https://ethodius.com/sndclips.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Ethodius (90s-00s, United States)</a
+              >
+            </li>
+            <li class="artist-item" type="['black metal', 'guitar', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=Dc2-Q-DYhw8"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Evol (90s-00s, Italy)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic']">
+              <a
+                href="https://www.youtube.com/watch?v=j8-GqZp0OY4"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Fata Morgana (90s, Norway, see also: Cintecele Diavolui,
+                Mortiis, Vond)</a
+              >
+            </li>
+            <li class="artist-item" type="['dark ambient']">
+              <a
+                href="https://www.youtube.com/watch?v=D2BUwCDhlfo"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Fjelltrone (90s-10s, Sweden)</a
+              >
+            </li>
+            <li class="artist-item" type="['dark ambient']">
+              <a
+                href="https://www.youtube.com/watch?v=lvYRTWw-S2c"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Floral of Forever (90s, Brunei, see also: The Mystickal
+                East)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic']">
+              <a
+                href="https://www.youtube.com/watch?v=iwGEOcmiK6c"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Forgotten Pathways (90s, 10s, Germany)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=6MBMt3sug6c"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Forgotten Temples (90s, Greece)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'neoclassical']">
+              <a
+                href="https://www.youtube.com/watch?v=I27PEefWSko"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Forn Draugost (90s, France)</a
+              >
+            </li>
+            <li class="artist-item" type="['new age']">
+              <a
+                href="https://www.youtube.com/watch?v=SnFb_arDovY&list=PL1oq_mcN-iTz04CMC299C7lM9OUOXrWFc"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Gerald Jay Markoe (90s-00s, United States)</a
+              >
+            </li>
+            <li class="artist-item" type="['black metal']">
+              <a
+                href="https://www.youtube.com/watch?v=g9WDnUzhIVw"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Gnome (90s, Japan)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic']">
+              <a
+                href="https://www.youtube.com/watch?v=DLFDe-AfKhc"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Gothmog (90s, Germany, see also: Depressive Silence)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'neoclassical']">
+              <a
+                href="https://www.youtube.com/watch?v=Z4osr37mIAU"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Grabesmond (90s, Austria, see also: Die Verbannten Kinder Evas,
+                Pazuzu, Summoning)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=3bcD5_vaXAY"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Grim (90s, Sweden)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=S3518qAkpd0"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Haron (90s, Bulgaria)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=UXKvMkNQn-A"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Heimkehr (90s, Ukraine)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=AOt-Tl0KZU4"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Hugin (90s, Denmark)</a
+              >
+            </li>
+            <li
+              class="artist-item"
+              type="['black metal', 'neoclassical', 'guitar', 'vocal']"
+            >
+              <a
+                href="https://www.youtube.com/watch?v=GAeVwjqB38s"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Hypnos (90s, Greece)</a
+              >
+            </li>
+            <li class="artist-item" type="['darkwave', 'neoclassical']">
+              <a
+                href="https://www.youtube.com/watch?v=ViffZIfJuZw"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Ilmarin (90s, 10s, United Kingdom)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic']">
+              <a
+                href="https://www.youtube.com/watch?v=Il8JiLNT0tg"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Imperivm Satanas (90s, Germany)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic']">
+              <a
+                href="https://www.youtube.com/watch?v=pX_Kr-v7n-U"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Infamis (90s-00s, Poland)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'winter']">
+              <a
+                href="https://www.youtube.com/watch?v=WqUO6XPjky8"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Jääportit (90s-present, Finland)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'berlin']">
+              <a
+                href="https://www.youtube.com/watch?v=ytNp0gikre0"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Jim Kirkwood (90s-present, United Kingdom)</a
+              >
+            </li>
+            <li class="artist-item" type="['dark ambient', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=IV4M4dG9cmY"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Kadotus 609 (90s, Finland, see also: Thergothon)</a
+              >
+            </li>
+            <li class="artist-item" type="['dark ambient']">
+              <a
+                href="https://www.youtube.com/watch?v=Z0pQnqKdGEY"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Kharadrai (90s, Finland)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic']">
+              <a
+                href="https://www.youtube.com/watch?v=F7yzjyd0260"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Kirke Aske (90s, France)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=RBM5t28obac"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Laïlheb (90s, France)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic']">
+              <a
+                href="https://www.youtube.com/watch?v=r1aeyvJB27w"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Long Lost Realm (90s, Portugal)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic']">
+              <a
+                href="https://www.youtube.com/watch?v=xNpM9IjpGxg"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Lord Abaddon (90s, Germany)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic']">
+              <a
+                href="https://www.youtube.com/watch?v=hzrNWNy4tx0"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Lord Wolf (90s, Greece)</a
+              >
+            </li>
+            <li class="artist-item" type="['neoclassical']">
+              <a
+                href="https://www.youtube.com/watch?v=_IZ0-4TagYY"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Lunar Womb (90s, Finland, see also: Moonsorrow)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'epic']">
+              <a
+                href="https://www.youtube.com/watch?v=UmOEl3QisE4"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Machina Coeli (90s, 10s, Italy)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic']">
+              <a
+                href="https://www.youtube.com/watch?v=stxkfyWXuH0"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Maelifell (90s-00s, France, see also: Arden, The
+                Summerlands)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic']">
+              <a
+                href="https://www.youtube.com/watch?v=ZDPLVxvrrwQ"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Mictian (90s, Germany)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=E46EgP0DJ5E"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Mimir (90s, Germany)</a
+              >
+            </li>
+            <li class="artist-item" type="['neoclassical']">
+              <a
+                href="https://www.youtube.com/watch?v=xgIcRSqu3J8"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Mirai (90s, Japan)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic']">
+              <a
+                href="https://www.youtube.com/watch?v=RUWwtPicBnM"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Monastery (90s, New Zealand)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic']">
+              <a
+                href="https://www.youtube.com/watch?v=AysaT9lIU24"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Moonlight (90s, Russia)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic']">
+              <a
+                href="https://www.youtube.com/watch?v=AysaT9lIU24"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Moonlight (90s, Russia)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic']">
+              <a
+                href="https://www.youtube.com/watch?v=9LHAt8Qtmyk"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Mortiis (90s-present, Norway, see also: Cintecele Diavolui,
+                Fata Morgana, Vond)</a
+              >
+            </li>
+            <li class="artist-item" type="['unknown']">
+              <a
+                href="https://rateyourmusic.com/artist/mortland"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Mortland (90s, Belarus)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=iGXvHisFmzw"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Mournlord (90s, Sweden)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'darkwave']">
+              <a
+                href="https://www.youtube.com/watch?v=_FaUSQzJ6zs"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Musa (90s, Italy)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic']">
+              <a
+                href="https://www.youtube.com/watch?v=dsi6P0YhJqU"
+                target="_blank"
+                rel="noopener noreferrer"
+                >The Mystickal East (90s, Brunei, see also: Floral of
+                Forever)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic']">
+              <a
+                href="https://www.youtube.com/watch?v=CYdlWcnKc8g"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Nazgûl (90s, Germany)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'neoclassical']">
+              <a
+                href="https://www.youtube.com/watch?v=j-iZQM9Wmzs"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Necrophorus (90s-10s, Sweden)</a
+              >
+            </li>
+            <li class="artist-item" type="['dark ambient']">
+              <a
+                href="https://www.youtube.com/watch?v=YB3zht96WmI"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Nemesis (90s, Finland)</a
+              >
+            </li>
+            <li class="artist-item" type="['neoclassical', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=rJbUrwPcUfA"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Nirnaeth (90s, 20s, Poland)</a
+              >
+            </li>
+            <li class="artist-item" type="['dark ambient']">
+              <a
+                href="https://www.youtube.com/watch?v=EqCSUPBAfOM"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Nocturnal Funeral (90s, Greece)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic']">
+              <a
+                href="https://www.youtube.com/watch?v=z6wTvKIsLxA"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Northland (90s, Poland)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic']">
+              <a
+                href="https://www.youtube.com/watch?v=IMgJ8I-PrYc"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Old Monks' Saga (90s-00s, Ukraine)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'epic']">
+              <a
+                href="https://www.youtube.com/watch?v=I-q-4oq0Em4"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Olgerd (90s, Slovakia)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'neoclassical']">
+              <a
+                href="https://www.youtube.com/watch?v=m6HZtXVIEz8"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Oneiros (90s, United States)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'neoclassical']">
+              <a
+                href="https://www.youtube.com/watch?v=86ERoKMa0lo"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Onoskelis (90s, 20s-present, Brazil)</a
+              >
+            </li>
+            <li
+              class="artist-item"
+              type="['classic', 'dark ambient', 'winter']"
+            >
+              <a
+                href="https://www.youtube.com/watch?v=F7yzjyd0260"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Paysage d'Hiver (90s-present, Switzerland)</a
+              >
+            </li>
+            <li
+              class="artist-item"
+              type="['classic', 'dark ambient', 'medieval', 'vocal']"
+            >
+              <a
+                href="https://www.youtube.com/watch?v=LgC-Bv_oXMM"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Pazuzu (90s, Austria, see also: Die Verbannten Kinder Evas,
+                Grabesmond, Summoning)</a
+              >
+            </li>
+            <li
+              class="artist-item"
+              type="['darkwave', 'industrial', 'neoclassical']"
+            >
+              <a
+                href="https://www.youtube.com/watch?v=7yY7H7z5_jE&list=PLUqvR3P_pAIsa5hqDxsG2JSY5AgLnhFS1"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Puissance (90s-10s, Sweden)</a
+              >
+            </li>
+            <li
+              class="artist-item"
+              type="['black metal', 'classic', 'guitar', 'vocal']"
+            >
+              <a
+                href="https://www.youtube.com/watch?v=1HwPV5niGbE"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Rex Infernus (90s, Greece)</a
+              >
+            </li>
+            <li class="artist-item" type="['dark ambient']">
+              <a
+                href="https://www.youtube.com/watch?v=95ku1c8MEHo"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Runes Order (90s-10s, Italy)</a
+              >
+            </li>
+            <li class="artist-item" type="['dark ambient']">
+              <a
+                href="https://www.youtube.com/watch?v=Yl75dGQLwKo"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Sabbathan (90s, Mexico)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=srV7sk4nplc"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Sagenhaft (90s-20s, Italy)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic']">
+              <a
+                href="https://www.youtube.com/watch?v=El-OkkAhZm0"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Satanis Nocturne (90s, United States)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'guitar']">
+              <a
+                href="https://www.youtube.com/watch?v=XKSu-wZChcQ"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Secret Stairways (90s, United States)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=CbRUqT4xZU0"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Shadowcaster (90s, United States)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic']">
+              <a
+                href="https://www.youtube.com/watch?v=sFcaOrTzAn4"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Словиша [Slovisha] (90s, Russia)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic']">
+              <a
+                href="https://www.youtube.com/watch?v=KvloaZtzko8"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Solanum (90s, 20s-present, Germany, see also: Depressive
+                Silence)</a
+              >
+            </li>
+            <li
+              class="artist-item"
+              type="['darkwave', 'medieval', 'neoclassical', 'vocal']"
+            >
+              <a
+                href="https://www.youtube.com/watch?v=2H55b3nfIEM"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Sopor Aeternus & The Ensemble of Shadows (90s-present,
+                Germany)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=YHh53LWntTY"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Sorg (90s, Germany)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic']">
+              <a
+                href="https://www.youtube.com/watch?v=jm2GeIrhY5s"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Spawn (90s, Italy)</a
+              >
+            </li>
+            <li class="artist-item" type="['comfy']">
+              <a
+                href="https://www.youtube.com/watch?v=ghMbL1z8ChM"
+                target="_blank"
+                rel="noopener noreferrer"
+                >The Summerlands (90s, France, see also: Arden, Maelifell)</a
+              >
+            </li>
+            <li class="artist-item" type="['black metal', 'guitar', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=4JgLFdNSwks"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Summoning (90s-present, Austria, see also: Die Verbannten
+                Kinder Evas, Grabesmond, Pazuzu)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'neoclassical', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=wX1BG60yG2M"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Susurrus Inanis (90s, United States, see also: Agalloch)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'darkwave']">
+              <a
+                href="https://www.youtube.com/watch?v=-xUQ6-ThIFc"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Tanquam (90s-00s, Russia)</a
+              >
+            </li>
+            <li class="artist-item" type="['medieval']">
+              <a
+                href="https://www.youtube.com/watch?v=kt-UfD4FI3I&list=PLHYtvnM4JK36gzVxAGyQBMVR5UZ1R44eF"
+                target="_blank"
+                rel="noopener noreferrer"
+                >This Soil Bleeds Black (90s-present, United States, see also:
+                Dragonwynd)</a
+              >
+            </li>
+            <li class="artist-item" type="['darkwave', 'guitar', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=JBlhJL-hvaw"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Thou Ask Divinity (90s, Italy)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'epic']">
+              <a
+                href="https://www.youtube.com/watch?v=2NMIodYLP4I"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Trollrath (90s-10s, Belgium)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'guitar', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=irBNDw1fAjE"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Trolltjern (90s, Norway)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic']">
+              <a
+                href="https://www.youtube.com/watch?v=XmFbK0X1XVc&list=PLgWVcaS58ur_648Q6iUX1Q_5Ys3oMhrEX"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Ukrivolsa (90s, Poland)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=95Zux2MaxL4"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Valar (90s, Finland)</a
+              >
+            </li>
+            <li class="artist-item" type="['dark ambient', 'forest']">
+              <a
+                href="https://www.youtube.com/watch?v=yqiQgtNm70k"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Vale of Pnath (90s, United States)</a
+              >
+            </li>
+            <li class="artist-item" type="['dark ambient']">
+              <a
+                href="https://www.youtube.com/watch?v=7YTmmEn4FZY"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Valor (90s, Finland)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=sZOSy0MsQXE"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Vedymini (90s, 10s, Poland)</a
+              >
+            </li>
+            <li class="artist-item" type="['dark ambient']">
+              <a
+                href="https://www.youtube.com/watch?v=BFYS3loqGFI"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Verised Naised (90s-10s, Estonia)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'comfy']">
+              <a
+                href="https://www.youtube.com/watch?v=dnGIKzGTlIw"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Vindalv (90s, Sweden)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'guitar', 'vocals']">
+              <a
+                href="https://www.youtube.com/watch?v=lNnFGyurrYs"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Viscol (90s, Moldova)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=eYOpGZ7Zxss"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Voices of Winds (90s, Finland)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic']">
+              <a
+                href="https://www.youtube.com/watch?v=e6eytkZFb6w"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Vond (90s, Norway, see also: Cintecele Diavolui, Fata Morgana,
+                Mortiis)</a
+              >
+            </li>
+            <li
+              class="artist-item"
+              type="['black metal', 'classic', 'guitar', 'vocals']"
+            >
+              <a
+                href="https://www.youtube.com/watch?v=QAvqI00XcL0"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Warhagan (90s, Poland)</a
+              >
+            </li>
+            <li class="artist-item" type="['dark ambient', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=uva2YWv6u00"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Wejdas (90s-10s, Lithuania)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'neoclassical', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=uxUyiArTPfU"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Wind (90s, Finland)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=CBYZV53E8Go"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Winds of Garden (90s, Poland)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=JBtvnc-jH8Q"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Winter Moon (90s, Sweden)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'guitar', 'vocal']">
+              <a
+                href="https://www.youtube.com/watch?v=Uvd9vKOjcGI"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Witchlord (90s, Germany)</a
+              >
+            </li>
+            <li class="artist-item" type="['berlin school']">
+              <a
+                href="https://www.youtube.com/watch?v=mH2_OqLTOxE"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Wizard Projects (80s-90s, Netherlands)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic']">
+              <a
+                href="https://www.youtube.com/watch?v=5VwIpLMWToc"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Wongraven (90s, Norway)</a
+              >
+            </li>
+            <li class="artist-item" type="['classic', 'comfy']">
+              <a
+                href="https://www.youtube.com/watch?v=jhuIWMl1mGE"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Woodland Choir (90s-10s, Hungary)</a
+              >
+            </li>
+          </ul>
+        </section>
+
+        <!-- <section>
+          <h2 id="00s">2000s</h2>
+          <ul>
+            <li class="artist-item" type="['neoclassical']">
+              <a
+                href="https://www.youtube.com/watch?v=riHlAMPNKMU"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Aeons (00s, Russia)</a
+              >
+            </li>
+            <li class="artist-item" type="['neoclassical']">
+              <a
+                href="https://www.youtube.com/watch?v=EOK78b5WonA"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Askhem (00s, Italy)</a
+              >
+            </li>
+            <li class="artist-item" type="['new age']">
+              <a
+                href="https://www.youtube.com/watch?v=TACH2NPStS8"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Aura (00s, Spain)</a
+              >
+            </li>
+          </ul>
+        </section> -->
+      </article>
+
+      <script src="scripts.js"></script>
+    </main>
+  </body>
+</html>

@@ -21,3 +21,55 @@ $sectionImgList.forEach(($img) => {
     }
   });
 });
+
+// Database.html
+const $allArtistItems = document.querySelectorAll('.artist-item');
+
+function showArtists(type) {
+  if (type) {
+    $allArtistItems.forEach(function ($el) {
+      const typeAttr = $el.getAttribute('type');
+      const formattedTypesAttr = typeAttr
+        .replace(/[\[\]'"]/g, '')
+        .split(',')
+        .map((s) => s.trim());
+
+      if (formattedTypesAttr.includes(type)) {
+        $el.style.display = 'list-item';
+      } else {
+        $el.style.display = 'none';
+      }
+    });
+
+    const $activeBtn = document.querySelector(
+      `.filter-wrapper button[type="${type}"]`
+    );
+    const $inactiveBtnList = document.querySelectorAll(
+      `.filter-wrapper button:not([type="${type}"])`
+    );
+
+    $activeBtn.classList.add('active');
+
+    $inactiveBtnList.forEach(function ($el) {
+      $el.classList.remove('active');
+    });
+  } else {
+    const $activeBtn = document.querySelector(
+      '.filter-wrapper button[type="all"]'
+    );
+    const $inactiveBtnList = document.querySelectorAll(
+      '.filter-wrapper button:not([type="all"])'
+    );
+
+    $allArtistItems.forEach(function ($el) {
+      $el.style.display = 'list-item';
+    });
+
+    $activeBtn.classList.add('active');
+
+    $inactiveBtnList.forEach(function ($el) {
+      $el.classList.remove('active');
+    });
+  }
+}
+// end Database.html
